@@ -316,7 +316,7 @@ function displayBeaconList() {
             var str='vvvv';
             // Create tag to display beacon data.
 
-            if (beacon.proximity === 'ProximityImmediate')
+            if (beacon.proximity === 'ProximityFar')
             {
                 if(beaconM == 1){
                     beaconM = 0;
@@ -331,7 +331,7 @@ function displayBeaconList() {
                     );
                 }
             }
-            if (beacon.proximity === 'ProximityFar'){
+            if (beacon.proximity === 'ProximityImmediate'){
                 if(beaconM == 0)
                 {
                     beaconM = 1;
