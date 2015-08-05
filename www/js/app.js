@@ -145,36 +145,36 @@ function startScan() {
                 if (relevantBeacon.avgArray.length >= avgArrayCount) {
                     relevantBeacon.avgArray.shift();
                 }
-                if (relevantBeacon.avgAccuracy >= 3)
-                {
-                    if(beaconM == 1){
-                        beaconM = 0;
-                        navigator.notification.confirm('Good buy.',
-                            function (button_id) {
-                                if (button_id == 1) {
-                                    navigator.app.exitApp();
-                                }
-                            },
-                            'Exit the application?',
-                            ['Yes', 'No']
-                        );
-                    }
-                }
-                if (relevantBeacon.avgAccuracy <= 1){
-                    if((beaconM == 0)&&(scannedBeaconsArr.length>0))
-                    {
-                        beaconM = 1;
-                        navigator.notification.confirm('Hello. We have coupon for you',
-                            function (button_id) {
-                                if (button_id == 1) {
-                                    loadContent('coupon');
-                                }
-                            },
-                            'View coupon?',
-                            ['Yes', 'No']
-                        );
-                    }
-                }
+                //if (relevantBeacon.avgAccuracy >= 3)
+                //{
+                //    if(beaconM == 1){
+                //        beaconM = 0;
+                //        navigator.notification.confirm('Good buy.',
+                //            function (button_id) {
+                //                if (button_id == 1) {
+                //                    navigator.app.exitApp();
+                //                }
+                //            },
+                //            'Exit the application?',
+                //            ['Yes', 'No']
+                //        );
+                //    }
+                //}
+                //if (relevantBeacon.avgAccuracy <= 1){
+                //    if((beaconM == 0)&&(scannedBeaconsArr.length>0))
+                //    {
+                //        beaconM = 1;
+                //        navigator.notification.confirm('Hello. We have coupon for you',
+                //            function (button_id) {
+                //                if (button_id == 1) {
+                //                    loadContent('coupon');
+                //                }
+                //            },
+                //            'View coupon?',
+                //            ['Yes', 'No']
+                //        );
+                //    }
+                //}
 
             } else {
                 relevantBeacon = {
@@ -315,6 +315,40 @@ function displayBeaconList() {
             }
             var str='vvvv';
             // Create tag to display beacon data.
+
+            if (beacon.proximity === 'ProximityImmediate')
+            {
+                if(beaconM == 1){
+                    beaconM = 0;
+                    navigator.notification.confirm('Good buy.',
+                        function (button_id) {
+                            if (button_id == 1) {
+                                navigator.app.exitApp();
+                            }
+                        },
+                        'Exit the application?',
+                        ['Yes', 'No']
+                    );
+                }
+            }
+            if (beacon.proximity === 'ProximityFar'){
+                if(beaconM == 0)
+                {
+                    beaconM = 1;
+                    navigator.notification.confirm('Hello. We have coupon for you',
+                        function (button_id) {
+                            if (button_id == 1) {
+                                loadContent('coupon');
+                            }
+                        },
+                        'View coupon?',
+                        ['Yes', 'No']
+                    );
+                }
+            }
+
+
+
             var element = $(
                     '<li><a onclick="ExhibitsLoadInfo(\''+beacon.uuid+'\',\''+beacon.minor+'\',\''+beacon.major+'\')">'
                     + beacon.uuid + '<br />'

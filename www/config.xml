@@ -30,4 +30,7 @@
     </feature>
     -->
     <!--<gap:plugin name="com.randdusing.bluetoothle" version="2.0.0" />-->
+    <icon src="res/icon/icon.png"/>
+    <splash src="res/screen/screen.png"/>
+    <gap:splash src="res/screen/screen.png"/>
 </widget>
