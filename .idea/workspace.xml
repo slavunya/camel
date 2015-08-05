@@ -2,13 +2,28 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="19" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="280" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="344" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="281" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="345" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58d505c-895f-4dfc-b339-3f2a41053fb6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" afterPath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/1.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/1.html" afterPath="$PROJECT_DIR$/www/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-gen/R.java.d" afterPath="$PROJECT_DIR$/platforms/android/ant-gen/R.java.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" afterPath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="camel.iws" />
@@ -34,7 +49,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
+            <state vertical-scroll-proportion="-0.3207547">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
             </state>
@@ -44,18 +59,18 @@
       <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.090909">
-              <caret line="43" column="84" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="84" />
+            <state vertical-scroll-proportion="-1.4512196">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.928572">
-              <caret line="195" column="7" selection-start-line="195" selection-start-column="7" selection-end-line="195" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.4215501">
+              <caret line="162" column="49" selection-start-line="162" selection-start-column="49" selection-end-line="162" selection-end-column="49" />
               <folding>
                 <element signature="e#648#1145#0" expanded="false" />
                 <element signature="e#1180#2105#0" expanded="false" />
@@ -64,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7968128">
+            <state vertical-scroll-proportion="-7.142857">
               <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -126,11 +151,12 @@
         <option value="$PROJECT_DIR$/www/content.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
-        <option value="$PROJECT_DIR$/www/1.html" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
         <option value="$PROJECT_DIR$/www/config.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/www/1.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
       </list>
     </option>
   </component>
@@ -193,10 +219,6 @@
               <option name="myItemId" value="camel.app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -205,6 +227,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="camel.app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +397,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438793399231</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wwrew">
+      <created>1438793456837</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1438793456837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,16 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
+        <state vertical-scroll-proportion="-0.3207547">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.090909">
-          <caret line="43" column="84" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -610,17 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.928572">
-          <caret line="195" column="7" selection-start-line="195" selection-start-column="7" selection-end-line="195" selection-end-column="7" />
-          <folding>
-            <element signature="e#648#1145#0" expanded="false" />
-            <element signature="e#1180#2105#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8214285">
@@ -629,11 +642,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7968128">
+        <state vertical-scroll-proportion="-7.142857">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4512196">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4215501">
+          <caret line="162" column="49" selection-start-line="162" selection-start-column="49" selection-end-line="162" selection-end-column="49" />
+          <folding>
+            <element signature="e#648#1145#0" expanded="false" />
+            <element signature="e#1180#2105#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

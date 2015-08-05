@@ -14,6 +14,13 @@ D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$string.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$xml.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\BuildConfig.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\Camel.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\R$attr.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\R$drawable.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\R$string.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\R$xml.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\R.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\cordova\beacon\IBeaconServiceNotifier.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\cordova\beacon\ILocationManagerCommand.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\cordova\beacon\LocationManager$1.class \

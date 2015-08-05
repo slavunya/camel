@@ -1,4 +1,4 @@
-D:\OpenServer\domains\camel.app\platforms\android\ant-gen\com\example\camel\R.java \
+D:\OpenServer\domains\camel.app\platforms\android\ant-gen\com\pixelsgo\camel\R.java \
  : D:\OpenServer\domains\camel.app\platforms\android\res\drawable\icon.png \
 D:\OpenServer\domains\camel.app\platforms\android\res\drawable-hdpi\icon.png \
 D:\OpenServer\domains\camel.app\platforms\android\res\drawable-land-hdpi\screen.png \

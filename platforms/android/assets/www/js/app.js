@@ -192,7 +192,7 @@ function startScan() {
             relevantBeacon.accuracy = beacon.accuracy;
             relevantBeacon.aliveCounter = 0;   // reset counter for founded beacon
             //tempScannedBeacons.push(relevantBeacon);
-            console.log(scannedBeaconsArr);
+            //console.log(scannedBeaconsArr);
         }
 
 
@@ -319,7 +319,7 @@ function displayBeaconList() {
                     + beacon.uuid + '<br />'
                     + 'Mj: ' + beacon.major + ' &nbsp; '
                     + 'Mn: ' + beacon.minor + ' &nbsp; '
-//                    + 'Prox: ' + beacon.proximity + '<br />'
+                    + 'Prox: ' + beacon.proximity + '<br />'
                     + 'Dist: ' + beacon.accuracy + '<br />'
 //                    + 'RSSI: ' + beacon.rssi + ' &nbsp; &nbsp; '
 //                    + 'RmX: ' + rM + '<br />'
