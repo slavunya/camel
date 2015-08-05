@@ -7,9 +7,8 @@ var regions =
 // Dictionary of beacons.
 var beacons = {};
 var scannedBeaconsArr = [];
-var avgArrayCount = 3;
+var avgArrayCount = 10;
 var aliveMaxCounter = 5;
-var distArr = [];
 
 
 var beaconM = 0;
@@ -146,6 +145,36 @@ function startScan() {
                 if (relevantBeacon.avgArray.length >= avgArrayCount) {
                     relevantBeacon.avgArray.shift();
                 }
+                if (relevantBeacon.avgAccuracy >= 3)
+                {
+                    if(beaconM == 1){
+                        beaconM = 0;
+                        navigator.notification.confirm('Good buy.',
+                            function (button_id) {
+                                if (button_id == 1) {
+                                    navigator.app.exitApp();
+                                }
+                            },
+                            'Exit the application?',
+                            ['Yes', 'No']
+                        );
+                    }
+                }else{
+                    if((beaconM == 0)&&(scannedBeaconsArr.length>0))
+                    {
+                        beaconM = 1;
+                        navigator.notification.confirm('Hello. We have coupon for you',
+                            function (button_id) {
+                                if (button_id == 1) {
+                                    loadContent('coupon');
+                                }
+                            },
+                            'View coupon?',
+                            ['Yes', 'No']
+                        );
+                    }
+                }
+
             } else {
                 relevantBeacon = {
                     uuid: beacon.uuid, major: beacon.major, minor: beacon.minor,
@@ -156,7 +185,6 @@ function startScan() {
                     aliveCounter: 0
                 };
                 //distArr.push(relevantBeacon.)
-                alert(JSON.stringify(relevantBeacon));
                 scannedBeaconsArr.push(relevantBeacon);
             }
             relevantBeacon.avgArray.push(beacon.accuracy);
@@ -164,6 +192,7 @@ function startScan() {
             relevantBeacon.accuracy = beacon.accuracy;
             relevantBeacon.aliveCounter = 0;   // reset counter for founded beacon
             //tempScannedBeacons.push(relevantBeacon);
+            //console.log(scannedBeaconsArr);
         }
 
 
@@ -171,18 +200,6 @@ function startScan() {
         for (var i = scannedBeaconsArr.length - 1; i >= 0; i--) {
             if (scannedBeaconsArr[i].aliveCounter >= aliveMaxCounter) {
                 scannedBeaconsArr.splice(i, 1);
-                if(beaconM == 1){
-                    beaconM = 0;
-                    navigator.notification.confirm('Good buy.',
-                        function (button_id) {
-                            if (button_id == 1) {
-                                navigator.app.exitApp();
-                            }
-                        },
-                        'Exit the application?',
-                        ['Yes', 'No']
-                    );
-                }
             }
         }
 
@@ -205,19 +222,7 @@ function startScan() {
         // time of updating is about 1100 millis
 
         console.log(scannedBeaconsArr);
-        if((beaconM == 0)&&(scannedBeaconsArr.length>0))
-        {
-            beaconM = 1;
-            navigator.notification.confirm('Hello. We have coupon for you',
-                function (button_id) {
-                    if (button_id == 1) {
-                        loadContent('coupon');
-                    }
-                },
-                'View coupon?',
-                ['Yes', 'No']
-            );
-        }
+
 
         if (realPosition) {
             $('#cordinate').html("lat: " + (realPosition.lat).toFixed(10) + "; lng: " + (realPosition.lng).toFixed(10));
