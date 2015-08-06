@@ -1,6 +1,13 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "file": "plugins/com.evothings.ble/ble.js",
+        "id": "com.evothings.ble.BLE",
+        "clobbers": [
+            "evothings.ble"
+        ]
+    },
+    {
         "file": "plugins/com.unarin.cordova.beacon/www/lib/underscore-min-1.6.js",
         "id": "com.unarin.cordova.beacon.underscorejs",
         "runs": true
@@ -43,28 +50,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/com.evothings.ble/ble.js",
-        "id": "com.evothings.ble.BLE",
-        "clobbers": [
-            "evothings.ble"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.network-information/www/network.js",
-        "id": "org.apache.cordova.network-information.network",
-        "clobbers": [
-            "navigator.connection",
-            "navigator.network.connection"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.network-information/www/Connection.js",
-        "id": "org.apache.cordova.network-information.Connection",
-        "clobbers": [
-            "Connection"
-        ]
-    },
-    {
         "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
         "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
         "clobbers": [
@@ -103,10 +88,18 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
-        "id": "org.apache.cordova.statusbar.statusbar",
+        "file": "plugins/org.apache.cordova.network-information/www/network.js",
+        "id": "org.apache.cordova.network-information.network",
         "clobbers": [
-            "window.StatusBar"
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.network-information/www/Connection.js",
+        "id": "org.apache.cordova.network-information.Connection",
+        "clobbers": [
+            "Connection"
         ]
     },
     {
@@ -120,14 +113,13 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.unarin.cordova.beacon": "3.3.0",
     "com.evothings.ble": "0.0.1",
-    "org.apache.cordova.geolocation": "0.3.12",
-    "org.apache.cordova.console": "0.2.13",
-    "org.apache.cordova.network-information": "0.2.15",
+    "com.unarin.cordova.beacon": "3.3.0",
     "de.appplant.cordova.plugin.local-notification": "0.8.2dev",
+    "org.apache.cordova.console": "0.2.13",
     "org.apache.cordova.dialogs": "0.3.0",
-    "org.apache.cordova.statusbar": "0.1.10",
+    "org.apache.cordova.geolocation": "0.3.12",
+    "org.apache.cordova.network-information": "0.2.15",
     "org.apache.cordova.device": "0.3.0"
 }
 // BOTTOM OF METADATA

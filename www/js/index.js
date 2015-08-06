@@ -61,7 +61,7 @@ function fullReady() {
     readHost();
     //googleMapLoadScript();
     getExistedBeaconsArr();
-    StatusBar.overlaysWebView(false);
+
     setTimeout(function () {
         //if (user) {
         //    loadContent('index');
@@ -69,6 +69,8 @@ function fullReady() {
         loadContent('login');
         //}
     }, 1000);
+    StatusBar.overlaysWebView(false);
+
 
 }
 
@@ -110,7 +112,11 @@ function loadContent(page) {
     }
     if (page === 'login') {
         $('#page').load('1.html #login', function () {
-
+            cordova.plugins.notification.local.schedule({
+                id: 10,
+                title: "Meeting in 15 minutes!",
+                text: "Jour fixe Produktionsbesprechung"
+            });
         });
     }
 
@@ -742,4 +748,14 @@ function getExistedBeaconsArr() {
             showErrorMessage(result.error);
         }
     }
+}
+function qw(){
+    var now = new Date().getTime(), _5_sec_from_now = new Date(now + 5*1000);
+
+    cordova.plugins.notification.local.schedule({
+        text: "Delayed Notification",
+        at: _5_sec_from_now,
+        led: "FF0000",
+        sound: null
+    });
 }

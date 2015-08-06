@@ -2,19 +2,54 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="19" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="281" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="379" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="278" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="376" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58d505c-895f-4dfc-b339-3f2a41053fb6" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\Camel.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$3.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\altbeacon-51e997d355e3789dee915596384f2b41.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\classes-8887a2811f3e2cb77318551d8f2effeb.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-gen\com\example\camel\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-gen\com\example\camel\R.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.statusbar\www\statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\src\com\example\camel\Camel.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\src\org\apache\cordova\statusbar\StatusBar.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/altbeacon-a9dc293e377c386a3c11869fd1073242.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/altbeacon-a9dc293e377c386a3c11869fd1073242.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/android-support-v4-20abc83a06492fc83eb048ad364cb0d5.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/android-support-v4-20abc83a06492fc83eb048ad364cb0d5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-3266e092779fa2387d59fb153a7e1751.jar" afterPath="$PROJECT_DIR$/platforms/android/ant-build/dexedLibs/classes-3266e092779fa2387d59fb153a7e1751.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/IBeaconServiceNotifier.java" afterPath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/IBeaconServiceNotifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/ILocationManagerCommand.java" afterPath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/ILocationManagerCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/LocationManager.java" afterPath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/LocationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/PausableThreadPoolExecutor.java" afterPath="$PROJECT_DIR$/platforms/android/src/com/unarin/cordova/beacon/PausableThreadPoolExecutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" afterPath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -39,22 +74,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48502994">
-              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statusbar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/www/statusbar.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding />
+              <caret line="222" column="48" selection-start-line="222" selection-start-column="48" selection-end-line="222" selection-end-column="48" />
+              <folding>
+                <element signature="e#648#1145#0" expanded="false" />
+                <element signature="e#1180#2105#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,11 +97,71 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="751" column="13" selection-start-line="751" selection-start-column="9" selection-end-line="751" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49221185">
+              <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="13.730769">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notification.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/browser/notification.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statusbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/www/statusbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,10 +201,11 @@
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/www/1.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/platforms/android/assets/www/1.html" />
       </list>
     </option>
   </component>
@@ -202,24 +291,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel.app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="platforms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -239,7 +310,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covenantMobileAPI-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cordova-plugin-local-notifications-example" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="false" />
   </component>
@@ -424,7 +495,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438858149231</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="111">
+      <created>1438859129002</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1438859129002</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -432,15 +509,15 @@
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29425114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36913767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38225257" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38225257" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3105802" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -512,7 +589,6 @@
           <folding>
             <element signature="e#648#1145#0" expanded="false" />
             <element signature="e#1180#2105#0" expanded="false" />
-            <marker date="1438805446064" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -534,6 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +621,6 @@
           <folding>
             <element signature="e#648#1145#0" expanded="false" />
             <element signature="e#1180#2105#0" expanded="false" />
-            <marker date="1438805446064" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -556,7 +632,6 @@
           <folding>
             <element signature="e#648#1145#0" expanded="false" />
             <element signature="e#1180#2105#0" expanded="false" />
-            <marker date="1438805446064" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -565,6 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,6 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,6 +656,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,6 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -593,6 +672,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,6 +680,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -607,6 +688,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3207547">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5215054">
@@ -669,21 +744,6 @@
     <entry file="file://$PROJECT_DIR$/www/js/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2666667">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.5555553">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -739,14 +799,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-72-2x.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -797,15 +849,59 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/www/statusbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15269461">
-          <caret line="329" column="37" selection-start-line="329" selection-start-column="37" selection-end-line="329" selection-end-column="37" />
-          <folding>
-            <element signature="e#648#1145#0" expanded="false" />
-            <element signature="e#1180#2105#0" expanded="false" />
-            <marker date="1438805446064" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/browser/notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.27844313">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.730769">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="751" column="13" selection-start-line="751" selection-start-column="9" selection-end-line="751" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -817,26 +913,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding />
+          <caret line="222" column="48" selection-start-line="222" selection-start-column="48" selection-end-line="222" selection-end-column="48" />
+          <folding>
+            <element signature="e#648#1145#0" expanded="false" />
+            <element signature="e#1180#2105#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/org.apache.cordova.statusbar/www/statusbar.js">
+    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48502994">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.49221185">
+          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
           <folding />
         </state>
       </provider>

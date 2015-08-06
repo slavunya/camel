@@ -7,13 +7,6 @@ D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\evothing
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\evothings\BLE$BluetoothStateReceiver.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\evothings\BLE$GattHandler.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\evothings\BLE.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\BuildConfig.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\Camel.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$attr.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$drawable.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$string.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R$xml.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\example\camel\R.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\BuildConfig.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\Camel.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\pixelsgo\camel\R$attr.class \
@@ -105,10 +98,6 @@ D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\c
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$1.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$2.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$3.class \
-D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\classes-3266e092779fa2387d59fb153a7e1751.jar \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\altbeacon-a9dc293e377c386a3c11869fd1073242.jar \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\android-support-v4-20abc83a06492fc83eb048ad364cb0d5.jar \

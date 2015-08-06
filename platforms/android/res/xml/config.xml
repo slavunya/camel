@@ -5,14 +5,11 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <feature name="LocationManager">
-        <param name="android-package" value="com.unarin.cordova.beacon.LocationManager" />
-    </feature>
     <feature name="BLE">
         <param name="android-package" value="com.evothings.BLE" />
     </feature>
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    <feature name="LocationManager">
+        <param name="android-package" value="com.unarin.cordova.beacon.LocationManager" />
     </feature>
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
@@ -23,9 +20,8 @@
     <feature name="Notification">
         <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
     </feature>
-    <feature name="StatusBar">
-        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
-        <param name="onload" value="true" />
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
     <name>Camel</name>
     <description>
@@ -49,6 +45,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+    <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
     <gap:plugin name="org.apache.cordova.device" />
     <icon src="res/icon/icon.png" />
     <splash src="res/screen/screen.png" />

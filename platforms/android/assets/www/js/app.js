@@ -222,9 +222,6 @@ function startScan() {
         updateIndoorMap(beaconsWithRadiuses, realPosition);
         // time of updating is about 1100 millis
 
-        console.log(scannedBeaconsArr);
-
-
         if (realPosition) {
             $('#cordinate').html("lat: " + (realPosition.lat).toFixed(10) + "; lng: " + (realPosition.lng).toFixed(10));
         }
