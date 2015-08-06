@@ -21,7 +21,7 @@ if (document.URL.indexOf("http://") === -1 && document.URL.indexOf("https://") =
 var store = window.localStorage;
 
 var menu = 0;
-var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+
 
 //function addDataToStore() {
 //    store.setItem('UUID', JSON.stringify(id.iBeaconId));
@@ -71,7 +71,7 @@ function fullReady() {
         //}
     }, 1000);
     StatusBar.overlaysWebView(false);
-
+    var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
 
 }
 
