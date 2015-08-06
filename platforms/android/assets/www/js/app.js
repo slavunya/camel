@@ -316,32 +316,32 @@ function displayBeaconList() {
             var str='vvvv';
             // Create tag to display beacon data.
 
-            if (beacon.proximity === 'ProximityImmediate')
+            if (beacon.proximity === 'ProximityFar')
             {
                 if(beaconM == 1){
                     beaconM = 0;
-                    navigator.notification.confirm('Good buy.',
+                    navigator.notification.confirm('Exit the application?',
                         function (button_id) {
                             if (button_id == 1) {
                                 navigator.app.exitApp();
                             }
                         },
-                        'Exit the application?',
+                        'Good buy.',
                         ['Yes', 'No']
                     );
                 }
             }
-            if (beacon.proximity === 'ProximityFar'){
+            if (beacon.proximity === 'ProximityImmediate'){
                 if(beaconM == 0)
                 {
                     beaconM = 1;
-                    navigator.notification.confirm('Hello. We have coupon for you',
+                    navigator.notification.confirm('View coupon?',
                         function (button_id) {
                             if (button_id == 1) {
                                 loadContent('coupon');
                             }
                         },
-                        'View coupon?',
+                        'Hello. We have coupon for you',
                         ['Yes', 'No']
                     );
                 }
