@@ -34,6 +34,9 @@ $(document).ready(function () {
 
 function checkFullReady() {
 
+    if(isMobile) {
+        console.log(StatusBar);
+    }
     var its = checkFullReady;
     if (!its.readyCounter) {
         its.readyCounter = 0;
