@@ -103,8 +103,8 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
-        "id": "cordova-plugin-statusbar.statusbar",
+        "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
+        "id": "org.apache.cordova.statusbar.statusbar",
         "clobbers": [
             "window.StatusBar"
         ]
@@ -127,7 +127,7 @@ module.exports.metadata =
     "org.apache.cordova.network-information": "0.2.15",
     "de.appplant.cordova.plugin.local-notification": "0.8.2dev",
     "org.apache.cordova.dialogs": "0.3.0",
-    "cordova-plugin-statusbar": "1.0.2-dev",
+    "org.apache.cordova.statusbar": "0.1.10",
     "org.apache.cordova.device": "0.3.0"
 }
 // BOTTOM OF METADATA

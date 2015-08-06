@@ -105,6 +105,10 @@ D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\c
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$1.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$2.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$3.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\classes-3266e092779fa2387d59fb153a7e1751.jar \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\altbeacon-a9dc293e377c386a3c11869fd1073242.jar \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\dexedLibs\android-support-v4-20abc83a06492fc83eb048ad364cb0d5.jar \

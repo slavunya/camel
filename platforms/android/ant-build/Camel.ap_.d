@@ -105,6 +105,7 @@ D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.device \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.statusbar \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.evothings.ble\ble.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.cordova.beacon\www \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.cordova.beacon\www\Delegate.js \
@@ -130,6 +131,8 @@ D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\Connection.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\network.js \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.statusbar\www \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.statusbar\www\statusbar.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\screen \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\android \

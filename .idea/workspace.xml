@@ -7,54 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58d505c-895f-4dfc-b339-3f2a41053fb6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/Camel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/R$xml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/com/pixelsgo/camel/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/.fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-gen/com/pixelsgo/camel/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/pixelsgo/camel/Camel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-gen/com/pixelsgo/camel/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/de/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/es/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/fr/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/it/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ja/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ko/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/pl/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/zh/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/RELEASENOTES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/wp/StatusBar.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/statusbar/StatusBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/android/StatusBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/windows/StatusBarProxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/de/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/es/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/fr/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/it/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ja/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ko/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/pl/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ru/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/zh/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/tests/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/tests/tests.js" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\CordovaLib\ant-build\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\ant-build\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\cordova-plugin-statusbar\www\statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\.fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\de\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\de\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\es\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\es\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\fr\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\fr\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\it\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\it\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\ja\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\ja\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\ko\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\ko\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\pl\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\pl\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\ru\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\zh\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\doc\zh\index.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\src\android\StatusBar.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\src\ios\CDVStatusBar.h" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\src\ios\CDVStatusBar.m" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\src\wp\StatusBar.cs" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\tests\plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\tests\tests.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\OpenServer\domains\camel.app\plugins\cordova-plugin-statusbar\www\statusbar.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/Camel.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/statusbar/StatusBar.java" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/statusbar/StatusBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" afterPath="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="camel.iws" />
@@ -91,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.prop" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.prop" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -101,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.5508982">
+              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -115,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,7 +128,17 @@
         <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cordova_plugins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,10 +185,10 @@
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/www/1.html" />
-        <option value="$PROJECT_DIR$/www/config.xml" />
-        <option value="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/platforms/android/assets/www/config.xml" />
+        <option value="$PROJECT_DIR$/www/config.xml" />
       </list>
     </option>
   </component>
@@ -280,24 +293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel.app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-statusbar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,12 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1438850594855</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="111">
+      <created>1438850766712</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1438850766712</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29425114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -528,9 +529,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38225257" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38225257" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -834,26 +835,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/config.xml">
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -870,10 +855,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop">
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5508982">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
           <folding />
         </state>
       </provider>
