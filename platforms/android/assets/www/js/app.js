@@ -319,6 +319,7 @@ function displayBeaconList() {
                     beaconM = 0;
 
                     cordova.plugins.notification.local.schedule({
+                        id:1,
                         text: "Thank you for stopping by Percy! Check back for our next offer!"
                     });
 
@@ -338,6 +339,7 @@ function displayBeaconList() {
                 {
                     beaconM = 1;
                     cordova.plugins.notification.local.schedule({
+                        id:2,
                         text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
                     });
                     //navigator.notification.confirm('View coupon?',

@@ -112,11 +112,7 @@ function loadContent(page) {
     }
     if (page === 'login') {
         $('#page').load('1.html #login', function () {
-            cordova.plugins.notification.local.schedule({
-                id: 10,
-                title: "Meeting in 15 minutes!",
-                text: "Jour fixe Produktionsbesprechung"
-            });
+
         });
     }
 
