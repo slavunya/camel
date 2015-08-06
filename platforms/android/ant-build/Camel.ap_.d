@@ -137,6 +137,7 @@ D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\screen \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\android \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\icon.png \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\icon.psd \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\ios \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\android\icon-36-ldpi.png \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res\icon\android\icon-48-mdpi.png \
