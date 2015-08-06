@@ -21,6 +21,7 @@ if (document.URL.indexOf("http://") === -1 && document.URL.indexOf("https://") =
 var store = window.localStorage;
 
 var menu = 0;
+var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
 
 //function addDataToStore() {
 //    store.setItem('UUID', JSON.stringify(id.iBeaconId));
@@ -105,14 +106,14 @@ function loadContent(page) {
         $('#page').load('1.html ' +
             '#index', function () {
             $('.header').load('1.html #hed');
-            im.uuid = 0;
 
-            initIndoorLocation();
         });
     }
     if (page === 'login') {
         $('#page').load('1.html #login', function () {
+            im.uuid = 0;
 
+            initIndoorLocation();
         });
     }
 
