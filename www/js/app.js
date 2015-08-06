@@ -317,30 +317,38 @@ function displayBeaconList() {
             {
                 if(beaconM == 1){
                     beaconM = 0;
-                    navigator.notification.confirm('Exit the application?',
-                        function (button_id) {
-                            if (button_id == 1) {
-                                navigator.app.exitApp();
-                            }
-                        },
-                        'Good buy.',
-                        ['Yes', 'No']
-                    );
+
+                    cordova.plugins.notification.local.schedule({
+                        text: "Thank you for stopping by Percy! Check back for our next offer!"
+                    });
+
+                    //navigator.notification.confirm('Exit the application?',
+                    //    function (button_id) {
+                    //        if (button_id == 1) {
+                    //            navigator.app.exitApp();
+                    //        }
+                    //    },
+                    //    'Good buy.',
+                    //    ['Yes', 'No']
+                    //);
                 }
             }
             if (beacon.proximity === 'ProximityImmediate'){
                 if(beaconM == 0)
                 {
                     beaconM = 1;
-                    navigator.notification.confirm('View coupon?',
-                        function (button_id) {
-                            if (button_id == 1) {
-                                loadContent('coupon');
-                            }
-                        },
-                        'Hello. We have coupon for you',
-                        ['Yes', 'No']
-                    );
+                    cordova.plugins.notification.local.schedule({
+                        text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
+                    });
+                    //navigator.notification.confirm('View coupon?',
+                    //    function (button_id) {
+                    //        if (button_id == 1) {
+                    //            loadContent('coupon');
+                    //        }
+                    //    },
+                    //    'Hello. We have coupon for you',
+                    //    ['Yes', 'No']
+                    //);
                 }
             }
 
