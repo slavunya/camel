@@ -33,10 +33,6 @@ $(document).ready(function () {
 });
 
 function checkFullReady() {
-
-    //if(isMobile) {
-    //    //console.log(StatusBar);
-    //}
     var its = checkFullReady;
     if (!its.readyCounter) {
         its.readyCounter = 0;
@@ -65,6 +61,7 @@ function fullReady() {
     readHost();
     //googleMapLoadScript();
     getExistedBeaconsArr();
+    StatusBar.overlaysWebView(false);
     setTimeout(function () {
         //if (user) {
         //    loadContent('index');

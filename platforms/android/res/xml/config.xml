@@ -48,8 +48,8 @@
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+    <gap:plugin name="org.apache.cordova.device" />
     <icon src="res/icon/icon.png" />
     <splash src="res/screen/screen.png" />
     <gap:splash src="res/screen/screen.png" />
