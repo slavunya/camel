@@ -34,9 +34,6 @@ $(document).ready(function () {
 
 function checkFullReady() {
 
-    if(isMobile) {
-        StatusBar.overlaysWebView(false);
-    }
     var its = checkFullReady;
     if (!its.readyCounter) {
         its.readyCounter = 0;
