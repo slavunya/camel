@@ -146,31 +146,6 @@ function startScan() {
                 if (relevantBeacon.avgArray.length >= avgArrayCount) {
                     relevantBeacon.avgArray.shift();
                 }
-                if (beaconM == 0) {
-                    if ((relevantBeacon.proximity === 'ProximityNear') || relevantBeacon.proximity === 'ProximityImmediate') {
-                        beaconM = 1;
-
-                        cordova.plugins.notification.local.schedule({
-                            id: 2,
-                            sound: sound,
-                            text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
-                        });
-                    }
-                }
-                if (relevantBeacon.proximity === 'ProximityUnknown'){
-                    proximUn++;
-                }
-                if (proximUn>=10) {
-                    if (beaconM == 1) {
-
-                        beaconM = 0;
-                        cordova.plugins.notification.local.schedule({
-                            id: 1,
-                            sound: sound,
-                            text: "Thank you for stopping by Percy! Check back for our next offer!"
-                        });
-                    }
-                }
 
                 //if (relevantBeacon.avgAccuracy >= 3)
                 //{
@@ -338,6 +313,34 @@ function displayBeaconList() {
             }
             var str = 'vvvv';
             // Create tag to display beacon data.
+
+
+            if (beaconM == 0) {
+                if ((beacon.proximity === 'ProximityNear') || (beacon.proximity === 'ProximityImmediate')) {
+                    beaconM = 1;
+                    cordova.plugins.notification.local.schedule({
+                        id: 2,
+                        sound: sound,
+                        text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
+                    });
+                }
+            }
+            if (beacon.proximity === 'ProximityUnknown'){
+                proximUn++;
+            }
+            else{
+                proximUn = 0;
+            }
+            if (proximUn>=10) {
+                if (beaconM == 1) {
+                    beaconM = 0;
+                    cordova.plugins.notification.local.schedule({
+                        id: 1,
+                        sound: sound,
+                        text: "Thank you for stopping by Percy! Check back for our next offer!"
+                    });
+                }
+            }
 
             var element = $(
                 '<li><a onclick="ExhibitsLoadInfo(\'' + beacon.uuid + '\',\'' + beacon.minor + '\',\'' + beacon.major + '\')">'

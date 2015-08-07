@@ -2,8 +2,8 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="20" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="304" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="369" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="279" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="372" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/www/js/index.js" line="74" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
@@ -40,8 +40,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79679143">
-              <caret line="170" column="27" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.2347826">
+              <caret line="334" column="35" selection-start-line="334" selection-start-column="35" selection-end-line="334" selection-end-column="35" />
               <folding>
                 <element signature="e#650#1147#0" expanded="false" />
               </folding>
@@ -570,7 +570,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438946934826</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="2222">
+      <created>1438948192559</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1438948192559</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -995,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79679143">
-          <caret line="170" column="27" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.2347826">
+          <caret line="334" column="35" selection-start-line="334" selection-start-column="35" selection-end-line="334" selection-end-column="35" />
           <folding>
             <element signature="e#650#1147#0" expanded="false" />
           </folding>
