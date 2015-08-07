@@ -1,8 +1,8 @@
 var regions =
-        [
-            // Sample UUIDs for beacons in our lab.
-            // {uuid: 'F7826DA6-4FA2-4E98-8024-BC5B71E0893E'},
-        ];
+    [
+        // Sample UUIDs for beacons in our lab.
+        // {uuid: 'F7826DA6-4FA2-4E98-8024-BC5B71E0893E'},
+    ];
 
 // Dictionary of beacons.
 var beacons = {};
@@ -201,6 +201,16 @@ function startScan() {
         for (var i = scannedBeaconsArr.length - 1; i >= 0; i--) {
             if (scannedBeaconsArr[i].aliveCounter >= aliveMaxCounter) {
                 scannedBeaconsArr.splice(i, 1);
+                if (beaconM == 1) {
+                    beaconM = 0;
+                    playAudio(getPhoneGapPath()+'notification.mp3');
+                    cordova.plugins.notification.local.schedule({
+                        id: 1,
+                        text: "Thank you for stopping by Percy! Check back for our next offer!"
+                    });
+
+                }
+
             }
         }
 
@@ -255,13 +265,13 @@ function startScan() {
 ////        a.sort(function(a,b){return a-b;});
 //        maxRSSI=array[0];
         var beaconRegion = new locationManager.BeaconRegion(
-                i + 1,
-                regions[i].uuid);
+            i + 1,
+            regions[i].uuid);
 
         // Start ranging.
         locationManager.startRangingBeaconsInRegion(beaconRegion)
-                .fail(console.error)
-                .done();
+            .fail(console.error)
+            .done();
 
         // Start monitoring.
         // (Not used in this example, included as a reference.)
@@ -310,67 +320,43 @@ function displayBeaconList() {
             else if (beacon.rssi < 0) {
                 rssiWidth = 100 + beacon.rssi;
             }
-            var str='vvvv';
+            var str = 'vvvv';
             // Create tag to display beacon data.
 
-            if (beacon.proximity === 'ProximityFar')
-            {
-                if(beaconM == 1){
-                    beaconM = 0;
-
-                    cordova.plugins.notification.local.schedule({
-                        id:1,
-                        text: "Thank you for stopping by Percy! Check back for our next offer!"
-                    });
-
-                    //navigator.notification.confirm('Exit the application?',
-                    //    function (button_id) {
-                    //        if (button_id == 1) {
-                    //            navigator.app.exitApp();
-                    //        }
-                    //    },
-                    //    'Good buy.',
-                    //    ['Yes', 'No']
-                    //);
-                }
+            if (beaconM == 0) {
+                beaconM = 1;
+                playAudio(getPhoneGapPath()+'notification.mp3');
+                cordova.plugins.notification.local.schedule({
+                    id: 2,
+                    text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
+                });
+                //navigator.notification.confirm('View coupon?',
+                //    function (button_id) {
+                //        if (button_id == 1) {
+                //            loadContent('coupon');
+                //        }
+                //    },
+                //    'Hello. We have coupon for you',
+                //    ['Yes', 'No']
+                //);
             }
-            if (beacon.proximity === 'ProximityImmediate'){
-                if(beaconM == 0)
-                {
-                    beaconM = 1;
-                    cordova.plugins.notification.local.schedule({
-                        id:2,
-                        text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
-                    });
-                    //navigator.notification.confirm('View coupon?',
-                    //    function (button_id) {
-                    //        if (button_id == 1) {
-                    //            loadContent('coupon');
-                    //        }
-                    //    },
-                    //    'Hello. We have coupon for you',
-                    //    ['Yes', 'No']
-                    //);
-                }
-            }
-
 
 
             var element = $(
-                    '<li><a onclick="ExhibitsLoadInfo(\''+beacon.uuid+'\',\''+beacon.minor+'\',\''+beacon.major+'\')">'
-                    + beacon.uuid + '<br />'
-                    + 'Mj: ' + beacon.major + ' &nbsp; '
-                    + 'Mn: ' + beacon.minor + ' &nbsp; '
-                    + 'Prox: ' + beacon.proximity + '<br />'
-                    + 'Dist: ' + beacon.accuracy + '<br />'
+                '<li><a onclick="ExhibitsLoadInfo(\'' + beacon.uuid + '\',\'' + beacon.minor + '\',\'' + beacon.major + '\')">'
+                + beacon.uuid + '<br />'
+                + 'Mj: ' + beacon.major + ' &nbsp; '
+                + 'Mn: ' + beacon.minor + ' &nbsp; '
+                + 'Prox: ' + beacon.proximity + '<br />'
+                + 'Dist: ' + beacon.accuracy + '<br />'
 //                    + 'RSSI: ' + beacon.rssi + ' &nbsp; &nbsp; '
 //                    + 'RmX: ' + rM + '<br />'
 //                    + 'Max major:' + majorMax + '<br/>'
 //                    + 'Max minor:' + minorMax + '<br/>'
 //                    + '<div style="background:rgb(255,128,64);height:20px;width:'
 //                    + rssiWidth + '%;"></div>'
-                    + '</a></li>'
-                    );
+                + '</a></li>'
+            );
             $('#warning').remove();
             $('#found-beacons').append(element);
         }
@@ -403,6 +389,7 @@ function initIndoorMap() {
         });
 
     }
+
     function drawMap(position) {
         var posLatlng = new google.maps.LatLng(position.latitude, position.longitude);
         var mapOptions = {
@@ -449,11 +436,11 @@ function updateIndoorMap(beaconsWithRadiusesArr, userPosition) {
                 var beaconPos = new google.maps.LatLng(currBeacon.lat, currBeacon.lng);
 
                 var markerImage = new google.maps.MarkerImage(
-                        'images/beacon.png',
-                        new google.maps.Size(36, 36),
-                        new google.maps.Point(0, 0),
-                        new google.maps.Point(18, 18)
-                        );
+                    'images/beacon.png',
+                    new google.maps.Size(36, 36),
+                    new google.maps.Point(0, 0),
+                    new google.maps.Point(18, 18)
+                );
 
                 var marker = new google.maps.Marker({
                     position: beaconPos,
@@ -510,11 +497,11 @@ function updateIndoorMap(beaconsWithRadiusesArr, userPosition) {
                 //indoorMap.animateTo(userPosLatLng, moveOpts);
             } else {
                 var markerImage = new google.maps.MarkerImage(
-                        'images/user_position.png',
-                        new google.maps.Size(40, 40),
-                        new google.maps.Point(0, 0),
-                        new google.maps.Point(20, 20)
-                        );
+                    'images/user_position.png',
+                    new google.maps.Size(40, 40),
+                    new google.maps.Point(0, 0),
+                    new google.maps.Point(20, 20)
+                );
 
                 var marker = new google.maps.Marker({
                     position: userPosLatLng,

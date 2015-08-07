@@ -73,15 +73,14 @@ function fullReady() {
     if(device.platform !== 'Android'){
         StatusBar.overlaysWebView(false);
     }
+
     cordova.plugins.notification.local.on("click", function (notification, state) {
         //alert(notification.id + " was clicked");
         if(notification.id==1){
             loadContent('index');
-            playAudio(getPhoneGapPath()+'notification.mp3');
         }
         if(notification.id==2){
             loadContent('coupon');
-            playAudio(getPhoneGapPath()+'notification.mp3');
         }
     }, this);
 }
