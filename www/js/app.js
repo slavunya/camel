@@ -146,13 +146,12 @@ function startScan() {
                 if (relevantBeacon.avgArray.length >= avgArrayCount) {
                     relevantBeacon.avgArray.shift();
                 }
-                if ((relevantBeacon.proximity === 'ProximityNear') || relevantBeacon.proximity === 'ProximityImmediate') {
-                    if (beaconM == 0) {
+                if (beaconM == 0) {
+                    if ((relevantBeacon.proximity === 'ProximityNear') || relevantBeacon.proximity === 'ProximityImmediate') {
                         beaconM = 1;
 
                         cordova.plugins.notification.local.schedule({
                             id: 2,
-                            icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
                             sound: sound,
                             text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
                         });
@@ -164,18 +163,12 @@ function startScan() {
                 if (proximUn>=10) {
                     if (beaconM == 1) {
 
-                        setTimeout(function () {
-                            beaconM = 0;
-                        }, 3000);
-
-
+                        beaconM = 0;
                         cordova.plugins.notification.local.schedule({
                             id: 1,
-                            icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
                             sound: sound,
                             text: "Thank you for stopping by Percy! Check back for our next offer!"
                         });
-
                     }
                 }
 
