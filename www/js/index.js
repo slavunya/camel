@@ -73,9 +73,14 @@ function fullReady() {
     if(device.platform !== 'Android'){
         StatusBar.overlaysWebView(false);
     }
-    var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
     cordova.plugins.notification.local.on("click", function (notification, state) {
-        alert(notification.id + " was clicked");
+        //alert(notification.id + " was clicked");
+        if(notification.id==1){
+            loadContent('coupon');
+        }
+        if(notification.id==2){
+            loadContent('index');
+        }
     }, this);
 }
 
@@ -749,4 +754,12 @@ function getExistedBeaconsArr() {
             showErrorMessage(result.error);
         }
     }
+}
+function qw(){
+    var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+    cordova.plugins.notification.local.schedule({
+        id:3,
+        text: "Hi",
+        sound: sound
+    });
 }
