@@ -76,10 +76,12 @@ function fullReady() {
     cordova.plugins.notification.local.on("click", function (notification, state) {
         //alert(notification.id + " was clicked");
         if(notification.id==1){
-            loadContent('coupon');
+            loadContent('index');
+            playAudio(getPhoneGapPath()+'notification.mp3');
         }
         if(notification.id==2){
-            loadContent('index');
+            loadContent('coupon');
+            playAudio(getPhoneGapPath()+'notification.mp3');
         }
     }, this);
 }
@@ -756,10 +758,33 @@ function getExistedBeaconsArr() {
     }
 }
 function qw(){
-    var sound = 'file://notification.mp3';
+    playAudio(getPhoneGapPath()+'notification.mp3');
     cordova.plugins.notification.local.schedule({
         id:3,
-        text: "Hi",
-        sound: sound
+        text: "Hi"
     });
+}
+
+function getPhoneGapPath() {
+
+    var path = window.location.pathname;
+    path = path.substr(path, path.length - 10);
+    return 'file://' + path;
+
+}
+
+function playAudio(url) {
+    // Play the audio file at url
+    var my_media = new Media(url,
+        // success callback
+        function () {
+            console.log("playAudio():Audio Success");
+        },
+        // error callback
+        function (err) {
+            console.log("playAudio():Audio Error: " + err);
+        }
+    );
+    // Play audio
+    my_media.play();
 }

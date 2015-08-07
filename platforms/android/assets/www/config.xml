@@ -27,6 +27,7 @@
     <gap:plugin name="org.apache.cordova.dialogs"/>
     <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4"/>
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
+    <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.device"/>
 
     <!--
