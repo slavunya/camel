@@ -145,6 +145,19 @@ function startScan() {
                 if (relevantBeacon.avgArray.length >= avgArrayCount) {
                     relevantBeacon.avgArray.shift();
                 }
+                if (beaconM == 0) {
+                    if ((relevantBeacon.proximity === 'ProximityNear') || relevantBeacon.proximity === 'ProximityImmediate') {
+                        beaconM = 1;
+
+                        cordova.plugins.notification.local.schedule({
+                            id: 2,
+                            icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
+                            sound: sound,
+                            text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
+                        });
+                    }
+                }
+
                 //if (relevantBeacon.avgAccuracy >= 3)
                 //{
                 //    if(beaconM == 1){
@@ -201,6 +214,7 @@ function startScan() {
         for (var i = scannedBeaconsArr.length - 1; i >= 0; i--) {
             if (scannedBeaconsArr[i].aliveCounter >= aliveMaxCounter) {
                 scannedBeaconsArr.splice(i, 1);
+                $('#found-beacons').empty();
                 if (beaconM == 1) {
 
                     setTimeout(function () {
@@ -208,7 +222,6 @@ function startScan() {
                     }, 3000);
 
 
-                    playAudio(sound);
                     cordova.plugins.notification.local.schedule({
                         id: 1,
                         icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
@@ -219,26 +232,6 @@ function startScan() {
                 }
 
             }
-        }
-
-        if (beaconM == 0) {
-            beaconM = 1;
-            playAudio(sound);
-            cordova.plugins.notification.local.schedule({
-                id: 2,
-                icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
-                sound: sound,
-                text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
-            });
-            //navigator.notification.confirm('View coupon?',
-            //    function (button_id) {
-            //        if (button_id == 1) {
-            //            loadContent('coupon');
-            //        }
-            //    },
-            //    'Hello. We have coupon for you',
-            //    ['Yes', 'No']
-            //);
         }
 
         // if beacon not scanned, but steal alive - add 1m radius

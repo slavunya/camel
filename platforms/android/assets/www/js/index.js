@@ -757,33 +757,8 @@ function getExistedBeaconsArr() {
     }
 }
 function qw(){
-    playAudio(getPhoneGapPath()+'notification.mp3');
     cordova.plugins.notification.local.schedule({
         id:3,
         text: "Hi"
     });
-}
-
-function getPhoneGapPath() {
-
-    var path = window.location.pathname;
-    path = path.substr(path, path.length - 10);
-    return 'file://' + path;
-
-}
-
-function playAudio(url) {
-    // Play the audio file at url
-    var my_media = new Media(url,
-        // success callback
-        function () {
-            console.log("playAudio():Audio Success");
-        },
-        // error callback
-        function (err) {
-            console.log("playAudio():Audio Error: " + err);
-        }
-    );
-    // Play audio
-    my_media.play();
 }
