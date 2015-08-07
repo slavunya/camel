@@ -70,9 +70,13 @@ function fullReady() {
         loadContent('login');
         //}
     }, 1000);
-    StatusBar.overlaysWebView(false);
+    if(device.platform !== 'Android'){
+        StatusBar.overlaysWebView(false);
+    }
     var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
-
+    cordova.plugins.notification.local.on("click", function (notification, state) {
+        alert(notification.id + " was clicked");
+    }, this);
 }
 
 
