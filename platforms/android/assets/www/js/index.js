@@ -756,7 +756,7 @@ function getExistedBeaconsArr() {
     }
 }
 function qw(){
-    var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf';
+    var sound = 'file://notification.mp3';
     cordova.plugins.notification.local.schedule({
         id:3,
         text: "Hi",

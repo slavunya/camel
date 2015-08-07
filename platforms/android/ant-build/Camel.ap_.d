@@ -30,7 +30,6 @@ D:\OpenServer\domains\camel.app\platforms\android\ant-build\res\drawable-xhdpi\i
 D:\OpenServer\domains\camel.app\platforms\android\assets\www \
 D:\OpenServer\domains\camel.app\platforms\android\assets\_where-is-www.txt \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\1.html \
-D:\OpenServer\domains\camel.app\platforms\android\assets\www\beep.caf \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\config.xml \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\cordova.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\cordova_plugins.js \
@@ -41,9 +40,9 @@ D:\OpenServer\domains\camel.app\platforms\android\assets\www\images \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\img \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\index.html \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\js \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\notification.mp3 \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\res \
-D:\OpenServer\domains\camel.app\platforms\android\assets\www\sound.mp3 \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\css\font-awesome.css \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\css\font-awesome.min.css \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\css\reset.css \
