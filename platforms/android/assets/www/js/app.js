@@ -111,7 +111,7 @@ function avgFromArray(arr) {
 
 
 function startScan() {
-
+    var sound = device.platform == 'Android' ? 'file://beep.mp3' : 'file://beep.caf';
     // The delegate object holds the iBeacon callback functions
     // specified below.
     var delegate = new locationManager.Delegate();
@@ -202,10 +202,17 @@ function startScan() {
             if (scannedBeaconsArr[i].aliveCounter >= aliveMaxCounter) {
                 scannedBeaconsArr.splice(i, 1);
                 if (beaconM == 1) {
-                    beaconM = 0;
-                    playAudio(getPhoneGapPath()+'notification.mp3');
+
+                    setTimeout(function () {
+                        beaconM = 0;
+                    }, 3000);
+
+
+                    playAudio(sound);
                     cordova.plugins.notification.local.schedule({
                         id: 1,
+                        icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
+                        sound: sound,
                         text: "Thank you for stopping by Percy! Check back for our next offer!"
                     });
 
@@ -214,6 +221,25 @@ function startScan() {
             }
         }
 
+        if (beaconM == 0) {
+            beaconM = 1;
+            playAudio(sound);
+            cordova.plugins.notification.local.schedule({
+                id: 2,
+                icon: 'http://www.optimizeordie.de/wp-content/plugins/social-media-widget/images/default/64/googleplus.png',
+                sound: sound,
+                text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
+            });
+            //navigator.notification.confirm('View coupon?',
+            //    function (button_id) {
+            //        if (button_id == 1) {
+            //            loadContent('coupon');
+            //        }
+            //    },
+            //    'Hello. We have coupon for you',
+            //    ['Yes', 'No']
+            //);
+        }
 
         // if beacon not scanned, but steal alive - add 1m radius
         for (var i = scannedBeaconsArr.length - 1; i >= 0; i--) {
@@ -322,25 +348,6 @@ function displayBeaconList() {
             }
             var str = 'vvvv';
             // Create tag to display beacon data.
-
-            if (beaconM == 0) {
-                beaconM = 1;
-                playAudio(getPhoneGapPath()+'notification.mp3');
-                cordova.plugins.notification.local.schedule({
-                    id: 2,
-                    text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
-                });
-                //navigator.notification.confirm('View coupon?',
-                //    function (button_id) {
-                //        if (button_id == 1) {
-                //            loadContent('coupon');
-                //        }
-                //    },
-                //    'Hello. We have coupon for you',
-                //    ['Yes', 'No']
-                //);
-            }
-
 
             var element = $(
                 '<li><a onclick="ExhibitsLoadInfo(\'' + beacon.uuid + '\',\'' + beacon.minor + '\',\'' + beacon.major + '\')">'
