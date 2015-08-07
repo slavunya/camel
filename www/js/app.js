@@ -112,7 +112,7 @@ function avgFromArray(arr) {
 
 
 function startScan() {
-    var sound = device.platform == 'Android' ? 'file://beep.mp3' : 'file://beep.caf';
+
     // The delegate object holds the iBeacon callback functions
     // specified below.
     var delegate = new locationManager.Delegate();
@@ -299,6 +299,7 @@ function displayBeaconList() {
 //    });
 //    //function changeInformation
 //    FindBeaconInDataBase(uuid);
+    var sound = device.platform == 'Android' ? 'file://beep.mp3' : 'file://beep.caf';
     $.each(beacons, function (key, beacon) {
 
         // Only show beacons that are updated during the last 60 seconds.
@@ -314,8 +315,8 @@ function displayBeaconList() {
             var str = 'vvvv';
             // Create tag to display beacon data.
 
-
             if (beaconM == 0) {
+
                 if ((beacon.proximity === 'ProximityNear') || (beacon.proximity === 'ProximityImmediate')) {
                     beaconM = 1;
                     cordova.plugins.notification.local.schedule({
