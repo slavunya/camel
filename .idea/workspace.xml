@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="19" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="307" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="372" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="20" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="311" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/app.js" line="376" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/www/js/index.js" line="74" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
@@ -15,8 +15,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="camel.iws" />
@@ -42,10 +40,10 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30267063">
-              <caret line="214" column="44" selection-start-line="214" selection-start-column="44" selection-end-line="214" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.8142077">
+              <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
               <folding>
-                <element signature="e#632#1129#0" expanded="false" />
+                <element signature="e#650#1147#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,7 +62,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.4827585">
+            <state vertical-scroll-proportion="-110.48276">
               <caret line="764" column="0" selection-start-line="764" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
               <folding />
             </state>
@@ -560,7 +558,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438943357754</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2222">
+      <created>1438945721303</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1438945721303</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -628,14 +632,15 @@
     <MESSAGE value="111" />
     <MESSAGE value="212121" />
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="2222" />
+    <option name="LAST_COMMIT_MESSAGE" value="2222" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/www/js/app.js</url>
-          <line>41</line>
+          <line>42</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -648,7 +653,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#632#1129#0" expanded="false" />
+            <element signature="e#650#1147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,7 +663,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#632#1129#0" expanded="false" />
+            <element signature="e#650#1147#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -976,7 +981,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4827585">
+        <state vertical-scroll-proportion="-110.48276">
           <caret line="764" column="0" selection-start-line="764" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
           <folding />
         </state>
@@ -984,10 +989,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30267063">
-          <caret line="214" column="44" selection-start-line="214" selection-start-column="44" selection-end-line="214" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.8142077">
+          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
           <folding>
-            <element signature="e#632#1129#0" expanded="false" />
+            <element signature="e#650#1147#0" expanded="false" />
           </folding>
         </state>
       </provider>
