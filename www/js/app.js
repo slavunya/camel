@@ -9,7 +9,7 @@ var beacons = {};
 var scannedBeaconsArr = [];
 var avgArrayCount = 10;
 var aliveMaxCounter = 5;
-var proximUn = 0;
+var proximFar = 0;
 
 
 var beaconM = 0;
@@ -326,13 +326,13 @@ function displayBeaconList() {
                     });
                 }
             }
-            if (beacon.proximity === 'ProximityUnknown'){
-                proximUn++;
+            if (beacon.proximity === 'ProximityFar'){
+                proximFar++;
             }
             else{
-                proximUn = 0;
+                proximFar = 0;
             }
-            if (proximUn>=10) {
+            if (proximFar>=10) {
                 if (beaconM == 1) {
                     beaconM = 0;
                     cordova.plugins.notification.local.schedule({
