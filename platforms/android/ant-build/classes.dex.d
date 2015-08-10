@@ -56,6 +56,14 @@ D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\c
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\cordova\beacon\LocationManager$9.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\cordova\beacon\LocationManager.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\com\unarin\cordova\beacon\PausableThreadPoolExecutor.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\BackgroundMode$1.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\BackgroundMode$2.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\BackgroundMode$3.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\BackgroundMode$Event.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\BackgroundMode.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\ForegroundService$1$1.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\ForegroundService$1.class \
+D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\background\ForegroundService.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\localnotification\ClearReceiver.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\localnotification\ClickActivity.class \
 D:\OpenServer\domains\camel.app\platforms\android\ant-build\classes\de\appplant\cordova\plugin\localnotification\LocalNotification$1.class \

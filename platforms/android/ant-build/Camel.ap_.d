@@ -104,6 +104,7 @@ D:\OpenServer\domains\camel.app\platforms\android\assets\www\js\libs\jquery\jque
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\js\libs\noty\jquery.noty.packaged.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.evothings.ble \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.cordova.beacon \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.background-mode \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.local-notification \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.device \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\org.apache.cordova.dialogs \
@@ -122,6 +123,8 @@ D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.cordova.beacon\www\model\BeaconRegion.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.cordova.beacon\www\model\CircularRegion.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\com.unarin.cordova.beacon\www\model\Region.js \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.background-mode\www \
+D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.background-mode\www\background-mode.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.local-notification\www \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.local-notification\www\local-notification-core.js \
 D:\OpenServer\domains\camel.app\platforms\android\assets\www\plugins\de.appplant.cordova.plugin.local-notification\www\local-notification-util.js \
