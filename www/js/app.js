@@ -315,9 +315,10 @@ function displayBeaconList() {
             var str = 'vvvv';
             // Create tag to display beacon data.
 
-            if (beaconM == 0) {
+            if ((beacon.proximity === 'ProximityNear') || (beacon.proximity === 'ProximityImmediate')) {
 
-                if ((beacon.proximity === 'ProximityNear') || (beacon.proximity === 'ProximityImmediate')) {
+                proximFar = 0;
+                if (beaconM == 0) {
                     beaconM = 1;
                     cordova.plugins.notification.local.schedule({
                         id: 2,
@@ -325,14 +326,11 @@ function displayBeaconList() {
                         text: "Welcome Percy! Thanks for stopping by Jim's office. Check out the offers we have for you!"
                     });
                 }
+            } else {
+                proximFar++
             }
-            if (beacon.proximity === 'ProximityFar'){
-                proximFar++;
-            }
-            else{
-                proximFar = 0;
-            }
-            if (proximFar>=10) {
+
+            if (proximFar >= 10) {
                 if (beaconM == 1) {
                     beaconM = 0;
                     cordova.plugins.notification.local.schedule({
