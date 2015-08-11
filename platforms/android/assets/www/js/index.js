@@ -74,6 +74,8 @@ function fullReady() {
         StatusBar.overlaysWebView(false);
     }
 
+    cordova.plugins.backgroundMode.enable();
+
     cordova.plugins.notification.local.on("click", function (notification, state) {
         //alert(notification.id + " was clicked");
         if(notification.id==1){
